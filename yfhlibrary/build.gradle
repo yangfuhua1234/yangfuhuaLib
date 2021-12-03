@@ -19,8 +19,8 @@ afterEvaluate {
                 // which results in publishing an app bundle.
                 from components.release
 
-                groupId = 'com.github.用户名'
-                artifactId = '项目名'
+                groupId = 'com.github.yangfuhua1234'
+                artifactId = 'yangfuhuaLib'
                 version = '1.0.0'
             }
             debug(MavenPublication) {
@@ -29,8 +29,8 @@ afterEvaluate {
                 from components.debug
 
 
-                groupId = 'com.github.用户名''
-                artifactId = '项目名''
+                groupId = 'com.github.yangfuhua1234'
+                artifactId = 'yangfuhuaLib'
                 version = '1.0.0'
             }
         }
